@@ -1,25 +1,13 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "我的账号",
     sites: [
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        color: "#0171CD",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "我的Github",
+        description: "我的Github主页",
+        url: "https://github.com/lsyyyy11",
+        icon: "https://img2.imgtp.com/2024/05/04/bU1p0P5j.png", 
       },
     ],
   },
@@ -39,10 +27,10 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "友情链接",
     sites: [
       {
-        title: "我的Github",
-        description: "我的Github主页",
-        url: "https://github.com/lsyyyy11",
-        icon: "https://github.com/fluidicon.png", 
+        title: "Imgtp图床",
+        description: "提供本站图床服务",
+        url: "https://www.imgtp.com/",
+        icon: "https://imgtp.com/favicon.ico", 
       },
     ],
   },
