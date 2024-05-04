@@ -23,18 +23,6 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       },
     ],
   },
-  {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
 /* 主要设置 */
   {
     title: "友情链接",
