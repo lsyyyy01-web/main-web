@@ -27,15 +27,6 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "示例分类2",
   },
   {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
     title: "友情链接",
     sites: [
       {
@@ -48,8 +39,6 @@ const WEBSITE_SORTS: WebsiteSort[] = [
   },
 ];
 
-/** Website 配置（2023.3.29 已废弃） */
-const WEBSITE_ITEMS: WebsiteItem[] = [];
 
 const GLOBAL_CONFIG = {
   /**
@@ -59,19 +48,17 @@ const GLOBAL_CONFIG = {
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://lsyyyy.my.canvasite.cn/cf-blog-test",
   /**
    * 指定中心 LOGO 图片地址
    */
   LOGO_URL: null,
-  /**
-   * 个人 Github 链接
-   */
+  /*个人 Github 链接*/
   GITHUB_URL: "https://github.com/lsyyyy11",
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://bing.shangzhenyang.com/api/4k",
   /**
    * ICP 备案号，留空不显示
    */
