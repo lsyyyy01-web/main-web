@@ -29,3 +29,8 @@ const WEBSITE_SORTS: WebsiteSort[] = [
   // ... ...
 ];
 ```
+
+
+## 1.3. 个人看的
+Github_Logo: https://img2.imgtp.com/2024/05/04/bU1p0P5j.png
+Imgtp_Logo: https://imgtp.com/favicon.ico
