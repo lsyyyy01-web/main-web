@@ -1,4 +1,4 @@
-/** Website 分类配置 */
+/**主页 Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "示例分类1",
@@ -35,6 +35,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "示例分类5",
   },
+/* 主要设置 */
   {
     title: "友情链接",
     sites: [
@@ -42,15 +43,13 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "EsunR Blog",
         description: "EsunR 的博客",
         url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",  //标题栏旁边的logo
       },
     ],
   },
 ];
 
-/** Website 配置（2023.3.29 已废弃） */
-const WEBSITE_ITEMS: WebsiteItem[] = [];
-
+//通用设置
 const GLOBAL_CONFIG = {
   /**
    * 博客名称
@@ -67,7 +66,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/lsyyyy11",
   /**
    * 背景图片地址
    */
@@ -75,8 +74,8 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
+  ICP: "项目来源于EsunR",
+  ICP_URL: "https://github.com/EsunR/Blog-Index",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
