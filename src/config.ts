@@ -39,10 +39,10 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "友情链接",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg", //浏览器标题旁网站logo
+        title: "我的Github",
+        description: "我的Github主页",
+        url: "https://github.com/lsyyyy11",
+        icon: "https://github.com/fluidicon.png", 
       },
     ],
   },
