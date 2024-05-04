@@ -1,12 +1,12 @@
-/**主页 Website 分类配置 */
+/** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "示例分类1",
     sites: [
       {
         title: "主标题",
+        description: "网站描述"
         url: "http://www.your-web-page.com/",
-        icon: "",
         color: "#0171CD",
       },
       {
@@ -23,7 +23,18 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       },
     ],
   },
-/* 主要设置 */
+  {
+    title: "示例分类2",
+  },
+  {
+    title: "示例分类3",
+  },
+  {
+    title: "示例分类4",
+  },
+  {
+    title: "示例分类5",
+  },
   {
     title: "友情链接",
     sites: [
@@ -31,18 +42,20 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "EsunR Blog",
         description: "EsunR 的博客",
         url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",  //标题栏旁边的logo
+        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg", //浏览器标题旁网站logo
       },
     ],
   },
 ];
 
-//通用设置
+/** Website 配置（2023.3.29 已废弃） */
+const WEBSITE_ITEMS: WebsiteItem[] = [];
+
 const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "BlogName",
   /**
    * 个人博客链接
    */
@@ -62,8 +75,8 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "项目来源于EsunR",
-  ICP_URL: "https://github.com/EsunR/Blog-Index",
+  ICP: "",
+  ICP_URL: "https://beian.miit.gov.cn/",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
@@ -87,8 +100,11 @@ const GLOBAL_CONFIG = {
    * Website 配置（2023.3.29 已废弃）
    */
   WEBSITE_ITEMS,
+  /**
+   * 网站 Title Keywords Description 的配置，用于 SEO
+   */
   TKD: {
-    title: "My Blog Index",
+    title: "lsyyyy的主页",
     keywords: "Blog, Index, Index Page",
     description: "This is my personal blog index page.",
   },
