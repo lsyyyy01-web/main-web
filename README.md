@@ -63,7 +63,9 @@ const WEBSITE_SORTS: WebsiteSort[] = [
 
 等待 Vercel 重新部署即可。
 
-## 2.2 手动部署
+## 2.2 部署到Cloudflare Pages (可提供自动更新，在Github的编辑会自动同步)
+
+## 2.3 手动部署
 
 ### 拉取代码并安装依赖
 
