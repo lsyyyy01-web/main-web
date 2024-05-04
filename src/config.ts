@@ -82,7 +82,7 @@ const GLOBAL_CONFIG = {
   /**
    * Website 分类配置
    */
-  WEBSITE_SORTS,
+   WEBSITE_SORTS,
   /**
    * Website 配置（2023.3.29 已废弃）
    */
