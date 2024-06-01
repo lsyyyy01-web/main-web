@@ -8,7 +8,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "我的Github",
         description: "我的Github主页",
         url: "https://github.com/lsyyyy11",
-        icon: "/assets/images/Github_Invertocat_Dark.png", 
+        icon: "/images/GitHub_Invertocat_Dark.png", 
       },
     ],
   },
@@ -19,7 +19,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "",
         description: "我的Github主页",
         url: "",
-        icon: "/assets/images/Github_Invertocat_Dark.png", 
+        icon: "/images/GitHub_Invertocat_Dark.png", 
       },
     ],
   }
