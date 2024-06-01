@@ -8,7 +8,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "我的Github",
         description: "我的Github主页",
         url: "https://github.com/lsyyyy11",
-        icon: "https://img2.imgtp.com/2024/05/04/bU1p0P5j.png", 
+        icon: "/assets/images/Github_Invertocat_Dark.png", 
       },
     ],
   },
@@ -19,21 +19,10 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "",
         description: "我的Github主页",
         url: "",
-        icon: "https://img2.imgtp.com/2024/05/04/bU1p0P5j.png", 
+        icon: "/assets/images/Github_Invertocat_Dark.png", 
       },
     ],
-  },
-  {
-    title: "友情链接",
-    sites: [
-      {
-        title: "Imgtp图床",
-        description: "提供本站图床服务",
-        url: "https://www.imgtp.com/",
-        icon: "https://imgtp.com/favicon.ico", 
-      },
-    ],
-  },
+  }
 ];
 
 /** Website 配置（2023.3.29 已废弃） */
