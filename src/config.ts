@@ -1,4 +1,5 @@
-/** Website 分类配置 */
+/** Website 分类配置 https://lsyyyy-timer.pages.dev
+*/
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
     title: "我的账号",
@@ -7,6 +8,17 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "我的Github",
         description: "我的Github主页",
         url: "https://github.com/lsyyyy11",
+        icon: "https://img2.imgtp.com/2024/05/04/bU1p0P5j.png", 
+      },
+    ],
+  },
+  {
+    title: "我的项目",
+    sites: [
+      {
+        title: "",
+        description: "我的Github主页",
+        url: "",
         icon: "https://img2.imgtp.com/2024/05/04/bU1p0P5j.png", 
       },
     ],
