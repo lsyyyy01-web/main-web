@@ -10,16 +10,27 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         url: "https://github.com/lsyyyy11",
         icon: "https://s2.loli.net/2024/06/01/7PY6CQD13GOHseA.png", 
       },
-    ],
+    ],  
   },
   {
     title: "我的项目",
     sites: [
       {
-        title: "",
-        description: "我的Github主页",
-        url: "",
+        title: "罗盘时钟",
+        description: "快去看看吧",
+        url: "https://lsyyyy-timer.pages.dev",
         icon: "https://s2.loli.net/2024/06/01/7PY6CQD13GOHseA.png", 
+      },
+    ],
+  },
+  {
+    title: "友情链接",
+    sites: [
+      {
+        title: "sm.ms图床",
+        description: "为本站提供图床服务",
+        url: "https://sm.ms",
+        icon: "https://s2.loli.net/2024/06/02/jXWN9YZ54QLtO6g.png",
       },
     ],
   }
