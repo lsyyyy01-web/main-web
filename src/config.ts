@@ -27,6 +27,16 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         url: "https://lsyyyy-imagebed.pages.dev/",
         icon: "https://lsyyyy-imagebed.pages.dev/file/64f50838f918ba33f1094.png", 
       },
+      {
+        /** 网站标题 */
+        title: "协议选择器",
+        /** 网站 url */
+        url: "https://lsyyyy-license-chooser.pages.dev/",
+        /** 网站 icon 图标，非必填，留空默认展示网站标题的第一个字符 */
+        icon: "",
+        /** 指定网站 icon 背景色 */
+        color: "#0171CD",
+      },
     ],
   },
   {
