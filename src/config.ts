@@ -31,11 +31,10 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         /** 网站标题 */
         title: "协议选择器",
         /** 网站 url */
+        description: "帮助您选择开源许可证协议",
         url: "https://lsyyyy-license-chooser.pages.dev/",
         /** 网站 icon 图标，非必填，留空默认展示网站标题的第一个字符 */
-        icon: "",
-        /** 指定网站 icon 背景色 */
-        color: "#0171CD",
+        icon: "https://lsyyyy-imagebed.pages.dev/file/6b3c710557a1b5fd9d2d3.png",
       },
     ],
   },
