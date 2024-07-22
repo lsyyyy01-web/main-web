@@ -62,7 +62,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://lsyyyy11.github.io",
   /**
    * 指定中心 LOGO 图片地址
    */
