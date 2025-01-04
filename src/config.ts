@@ -16,23 +16,11 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "我的项目",
     sites: [
       {
-        title: "罗盘时钟",
-        description: "快去看看吧",
-        url: "https://lsyyyy-timer.pages.dev",
-        icon: "https://lsyyyy-imagebed.pages.dev/file/293fa08a9123c75754e58.png", 
-      },
-      {
-        title: "图床",
-        description: "基于TeleGraph的图床",
-        url: "https://lsyyyy-imagebed.pages.dev/",
-        icon: "https://lsyyyy-imagebed.pages.dev/file/64f50838f918ba33f1094.png", 
-      },
-      {
         /** 网站标题 */
-        title: "协议选择器",
+        title: "暂无",
         /** 网站 url */
-        description: "帮助您选择开源许可证协议",
-        url: "https://lsyyyy-license-chooser.pages.dev/",
+        description: "暂无",
+        url: "https://example.com/",
         /** 网站 icon 图标，非必填，留空默认展示网站标题的第一个字符 */
         icon: "https://lsyyyy-imagebed.pages.dev/file/6b3c710557a1b5fd9d2d3.png",
       },
@@ -78,8 +66,11 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "",
-  ICP_URL: "https://beian.miit.gov.cn/",
+  ICP: "萌ICP备20255554号",
+  ICP_URL: "https://icp.gov.moe/?keyword=20255554",
+
+
+
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
