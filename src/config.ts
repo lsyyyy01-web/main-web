@@ -5,6 +5,13 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "我的账号",
     sites: [
       {
+        // 🟢🟡🟠🔴
+        title: "🟢 服务状态监测",
+        description: " Status",
+        url: "https://stats.uptimerobot.com/X4GaKypqAn",
+        icon: "https://lsyyyy-imagebed.pages.dev/file/4949b2252c08cea091e69.png", 
+      },
+      {
         title: "我的Github",
         description: "我的Github主页",
         url: "https://github.com/lsyyyy11",
@@ -46,7 +53,7 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "BlogName",
+  BLOG_NAME: "博客",
   /**
    * 个人博客链接
    */
